@@ -1,3 +1,6 @@
+const siteHeader=document.querySelector('.site-header');
+if(siteHeader){const measure=()=>document.documentElement.style.setProperty('--header-height',`${siteHeader.getBoundingClientRect().height}px`);new ResizeObserver(measure).observe(siteHeader);measure();}
+document.querySelectorAll('.story-index a[href="#evidence"]').forEach(a=>a.addEventListener('click',()=>{const detail=document.getElementById('evidence');if(detail)detail.open=true;}));
 document.querySelectorAll('[data-expand]').forEach(button=>button.addEventListener('click',()=>{const dialog=document.querySelector('.lightbox');const source=button.querySelector('img');dialog.querySelector('img').src=source.src;dialog.querySelector('img').alt=source.alt;dialog.querySelector('p').textContent=button.closest('figure')?.querySelector('figcaption')?.textContent||source.alt;dialog.showModal();}));
 document.querySelectorAll('[data-tour]').forEach(tour=>{
  const controls=tour.querySelector('.tour-controls');
