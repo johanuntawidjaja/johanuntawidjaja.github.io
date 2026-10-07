@@ -19,11 +19,11 @@ img{height:auto}
  .about-page .about-biography{grid-column:1;grid-row:3}
 }
 /* Full-bleed navigation; only its contents share the page gutters. */
-.site-header.site-header{width:100%;max-width:none;margin:0;padding:0;background:#252a23;color:#f5f3ed;border-color:#454b40}
+.site-header.site-header{width:100%;max-width:none;margin:0;padding:0;background:#e8e6df;color:#252821;border-color:#d1cec4}
 .nav-inner{width:min(1280px,calc(100% - 112px));margin-inline:auto;display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:18px}
-.site-header .wordmark>span{color:#ed815e}
-.site-header nav a:after{background:#ed815e}
-.site-header :focus-visible{outline-color:#ed815e}
+.site-header .wordmark>span{color:#c84421}
+.site-header nav a:after{background:#c84421}
+.site-header :focus-visible{outline-color:#c84421}
 .site-header .header-contact{gap:9px;align-items:center}
 .footer-title.footer-title{justify-content:flex-start;align-items:center;gap:18px}
 .footer-title .social-icon{flex-shrink:0}
