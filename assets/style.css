@@ -103,6 +103,10 @@ footer .footer-bottom{margin-top:28px;padding-top:24px}
 .feature-card .feature-image.product img,.work-grid .work-card-image.product img{mix-blend-mode:normal}
 .experience-list .experience-row:first-child .experience-visual{background:#e3e8e5}
 @media(max-width:700px){body footer{padding-top:32px}}
+/* Editorial headings: balanced lines, with a restrained article-title scale. */
+h1,h2,h3{text-wrap:balance}
+.note-article header h1{font-size:clamp(34px,4.2vw,54px);line-height:1.12;letter-spacing:-.025em}
+.note-article .note-prose h2{font-size:clamp(26px,3vw,34px);line-height:1.15}
 /* Persistent navigation, with measured offsets for wrapped phone headers. */
 :root{--header-height:86px}
 html{scroll-padding-top:calc(var(--header-height) + 20px)}
