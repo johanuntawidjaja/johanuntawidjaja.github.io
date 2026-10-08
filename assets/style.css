@@ -104,6 +104,10 @@ footer .footer-bottom{margin-top:28px;padding-top:24px}
 .experience-list .experience-row:first-child .experience-visual{background:#e3e8e5}
 @media(max-width:700px){body footer{padding-top:32px}}
 /* Editorial headings: balanced lines, with a restrained article-title scale. */
+:root{--orange:#bc4020}
+:focus-visible{outline:3px solid #bc4020;outline-offset:5px}
+footer :focus-visible,.wide-project :focus-visible{outline-color:#f2b18e}
+footer .wordmark>span{color:#e79a78}
 h1,h2,h3{text-wrap:balance}
 .note-article header h1{font-size:clamp(34px,4.2vw,54px);line-height:1.12;letter-spacing:-.025em}
 .note-article .note-prose h2{font-size:clamp(26px,3vw,34px);line-height:1.15}
